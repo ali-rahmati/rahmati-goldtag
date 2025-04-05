@@ -1,0 +1,30 @@
+@font-face {
+    font-family: iranyekan-regular;
+    src: url(../font/iryekan-regular.woff);
+}
+@font-face {
+    font-family: iranyekan-number;
+    src: url(../font/iryekan-light.woff);
+}
+@media (max-width: 992px){
+    main div.master {
+        border: none !important;
+        box-shadow: none !important;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    direction: rtl;
+    list-style: none;
+    font-family: iranyekan-regular;
+    outline: none;
+}
+.f14{
+    font-size: 14px;
+    font-family: iranyekan-number;
+    color:rgb(86, 86, 86)
+}
